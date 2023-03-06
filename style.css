@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+/*Correções olhando o video:
+- Coloquei as quebra de linhas nos paragrafos
+- coloquei o min-height: 100vh no body
+- coloquei hoover em cima da ancora no subtitulo
+- div .estrofe troquei height: 1200px por padding-bottom: 10vh e padding-top: 10vh. Coloquei line-height: 2 em.
+- Estrofe-foto-1p-p: width 400 para display inline-block
+- coloquei o font-size de 80px para 3.5vw
+- coloquei o background size- cover
+-cooquei na estrofe um text=shadoow */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fonte-padrao: Sriracha, cursive;
+}
+
+
+header {
+    height: 200px;
+    background-color: black;
+    padding-bottom: 30px;
+
+    
+}
+
+
+body {
+    background-color: white;
+    min-height: 100vh;
+}
+
+.conteudo-principal-escrito {
+
+    min-width: none;
+    max-width: none;
+    
+}
+
+#titulo {
+    font-family: 'Passion One';
+    color: white;
+    font-size: 4.5vw;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+#subtitulo {
+    font-family: 'Passion One';
+    text-align: center;
+    font-size: 40px;
+}
+
+#subtitulo a {
+    color: rgba(255, 255, 255, 0.547);
+    font-weight: 100px;
+    text-decoration: none;
+}
+
+#subtitulo a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+#subtitulo strong {
+    color: white;
+}
+
+.estrofe {
+    background-color: white;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+
+.estrofe-paragrafo{
+    font-family: var(--fonte-padrao);
+    text-align: left;
+    line-height: 2em;
+    
+    
+}
+
+#estrofe-foto-1 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.437);
+}
+
+#estrofe-foto-1-p {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.481);
+    text-shadow: 2px 2px 0px black;
+
+    
+}
+
+#estrofe-foto-2 {
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.437);
+}
+
+#estrofe-foto-2-p {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.481);
+    text-shadow: 2px 2px 0px black;
+}
+
+footer {
+    height: 70px;
+    background-color: black;
+}
+
+footer h2 {
+    color: rgba(255, 255, 255, 0.959);
+    font-weight: 400px;
+    font-family: sans-serif;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h2 strong{
+    font-weight: 800px;
+}
+
